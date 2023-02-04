@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "format-files": "pretty-quick --staged"
+    "format-files": "pretty-quick --staged",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
